@@ -1,0 +1,27 @@
+.Button {
+	width: 135px;
+	height: 30px;
+	margin: 0 16px 0 0;
+	padding: 6px 28px 6px 31px;
+	border-radius: 4px;
+	background-image: linear-gradient(to bottom, #14b349, #09a04f);
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.Content {
+	width: auto;
+	height: 16px;
+	margin: 0 0 2px 8px;
+	background-color: transparent;
+	font-family: 'DM Sans', 'sans-serif';
+	font-size: 12px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+}

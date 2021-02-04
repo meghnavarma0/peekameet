@@ -1,0 +1,48 @@
+.Profile {
+	margin: 0;
+	margin-top: -75px;
+	z-index: 200;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Name {
+	width: auto;
+	height: 21px;
+	margin: 16px 94px 6px 93px;
+	background-color: #ffffff;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #152d4e;
+}
+
+.Desig {
+	width: auto;
+	height: 18px;
+	margin: 6px 132px 6px 131px;
+	background-color: #ffffff;
+	font-family: 'DM Sans', 'sans-serif';
+	font-size: 12px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #152d4e;
+}
+
+.Container {
+	margin: 20px 0px;
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	justify-content: center;
+}

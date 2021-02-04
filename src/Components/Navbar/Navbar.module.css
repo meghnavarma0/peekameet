@@ -1,0 +1,72 @@
+.Navbar {
+	width: 100%;
+	height: 56px;
+	margin: 0 0 30px;
+	padding: 8px 143px;
+	background-image: linear-gradient(92deg, #14b349 -109%, #09a04f 209%);
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+
+.Title {
+	width: 104px;
+	height: 24px;
+	margin: 8px 0 8px 8px;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 18.8px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	/* letter-spacing: -0.4px; */
+	color: #ffffff;
+}
+
+.SignIn_Button {
+	width: 87px;
+	height: 30px;
+	padding: 5px 17px 4px 19px;
+	border-radius: 4px;
+}
+
+.SignIn {
+	width: 51px;
+	height: 21px;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+}
+
+.SignUp_Button {
+	width: 87px;
+	height: 30px;
+	padding: 5px 15px 4px;
+	border-radius: 4px;
+	background-color: #ffffff;
+}
+
+.SignUp {
+	width: 57px;
+	height: 21px;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #1cb54f;
+}
+
+.ButtonContainer {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,41 @@
+.MainContainer {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 20px 20px 0px 0px;
+}
+
+.SubContainer {
+	padding: 20px 20px 0px 10px;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.Text {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 1.2rem;
+	color: #1cb54f;
+	margin: 0px 20px;
+}
+
+.Icon {
+	padding-top: -5px;
+}
+
+.Topping {
+	font-size: 0.8rem;
+	color: #9ea0a3;
+	font-family: 'DM Sans', sans-serif;
+}
+
+.Address {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 1.2rem;
+
+	margin: 10px 0px 0px;
+}

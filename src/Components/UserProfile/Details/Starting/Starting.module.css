@@ -1,0 +1,22 @@
+.Heading {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 1.2em;
+	padding: 20px 40px;
+	max-width: 80%;
+	text-align: center;
+	margin: auto;
+	color: #152d4e;
+	font-weight: 700;
+}
+.Commas {
+	padding-bottom: 0.3rem;
+}
+.Para {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 1em;
+	padding: 10px;
+	max-width: 90%;
+	font-weight: 500;
+	margin: auto;
+	color: #152d4e;
+}

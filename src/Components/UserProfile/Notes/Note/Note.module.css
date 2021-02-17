@@ -1,0 +1,36 @@
+.Note {
+  width: 80%;
+  height: fit-content;
+  margin: 20px auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 1px 1px #c1c1c1;
+  border: 1px solid #f1f1f1;
+  border-left: 3px solid #1cb54f;
+  font-family: "DM Sans", "sans-serif";
+  text-align: left;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DateAndTime {
+  color: #9ea0a3;
+  font-family: "DM Sans", "sans-serif";
+  text-align: left;
+  margin-top: 10px;
+  font-size: small;
+}
+
+.Note {
+  transition: all 0.2s ease-in-out;
+}
+.Note:hover {
+  transform: scale(1.1);
+}
+
+.Options:hover {
+  cursor: pointer;
+}

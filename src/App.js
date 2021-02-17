@@ -1,23 +1,24 @@
-import './App.css';
-import SignIn from './Components/SignIn/SignIn';
-import UserProfile from './Components/UserProfile/UserProfile';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import React from "react";
+import "./App.css";
+import SignIn from "./Components/SignIn/SignIn";
+import { connect } from "react-redux";
+import UserProfile from "./Components/UserProfile/UserProfile";
+import { BrowserRouter } from "react-router-dom";
 
-function App() {
-	return (
-		<BrowserRouter>
-			<div className='App'>
-				<Switch>
-					<Route path='/profile'>
-						<UserProfile />
-					</Route>
-					<Route path='/' exact>
-						<SignIn />
-					</Route>
-				</Switch>
-			</div>
-		</BrowserRouter>
-	);
+function App(props) {
+  return (
+    <BrowserRouter>
+      <div className="App">
+        {props.isAuthenticated ? <UserProfile /> : <SignIn />}
+      </div>
+    </BrowserRouter>
+  );
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return {
+    isAuthenticated: state.isAuthenticated,
+  };
+};
+
+export default connect(mapStateToProps)(App);

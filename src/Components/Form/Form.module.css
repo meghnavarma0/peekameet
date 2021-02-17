@@ -1,144 +1,173 @@
 .PEEKaMEET_lets_you_n {
-	width: 431px;
-	height: 40px;
-	margin: 0 0 16px;
-	font-family: 'DM Sans', sans-serif;
-	font-size: 18px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: var(--dark-slate-blue);
+  /* width: 431px;
+  height: 40px;
+  margin: 0 0 16px; */
+  width: 100%;
+  height: auto;
+  margin: 0px 10px 16px 16px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--dark-slate-blue);
 }
 
 .PEEKaMEET_lets_you_n .text_style_1 {
-	font-size: 24px;
-	color: var(--dark-slate-blue);
-	font-weight: bold;
+  font-size: 24px;
+  color: var(--dark-slate-blue);
+  font-weight: bold;
 }
 
 .ChipsContainer {
-	display: flex;
-	flex-flow: row;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .Toppings {
-	width: 31px;
-	height: 16px;
-	margin: 0 400px 6px 0;
-	font-family: 'DM Sans', sans-serif;
-	font-size: 12px;
-	font-weight: 500;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #9ea0a3;
+  width: 31px;
+  height: 16px;
+  margin: 0 400px 6px 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9ea0a3;
 }
 
 .Input {
-	width: 431px;
-	height: 36px;
-	margin: 6px 0 0;
-	padding: 10px 296px 6px 8px;
-	border-radius: 4px;
-	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.11);
-	border: 1px solid #14b349;
-	background-color: #ffffff;
+  /* width: 431px; */
+  height: 36px;
+  width: 100%;
+
+  margin: 6px 0 0;
+  padding: 10px 10px 6px 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.11);
+  border: 1px solid #14b349;
+  background-color: #ffffff;
 }
 
 .Input:hover,
 .Input:focus {
-	outline: none;
-	border: 1px solid rgb(68, 68, 241);
+  outline: none;
+  border: 1px solid rgb(68, 68, 241);
 }
 
 .Button {
-	width: 431px;
-	height: 36px;
-	margin: 0 0 20px;
-	padding: 8px 190px 7px;
-	border-radius: 4px;
-	background-image: linear-gradient(92deg, #14b349 -109%, #09a04f 209%);
+  /* width: 431px; */
+  height: 36px;
+  width: 100%;
+  margin: 0 0 20px;
+  /* padding: 8px 190px 7px; */
+  padding: 8px auto;
+  text-align: center; /* height: 36px; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-image: linear-gradient(92deg, #14b349 -109%, #09a04f 209%);
 }
 .Button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .SignIn {
-	width: 51px;
-	height: 21px;
-	font-family: 'DM Sans', sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #ffffff;
+  width: 51px;
+  height: 21px;
+  /* margin: auto; */
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Error {
+  font-size: x-small;
+  font-family: "DM Sans", sans-serif;
+  color: #ff0000;
 }
 
 .CheckBox {
-	width: 16px;
-	height: 16px;
-	margin: 1px 11px 1px 0;
-	object-fit: contain;
-	opacity: 0.7;
-	border-radius: 4px;
-	border: solid 1px var(--dark-slate-blue);
+  width: 16px;
+  height: 16px;
+  margin: 1px 11px 1px 0;
+  object-fit: contain;
+  opacity: 0.7;
+  border-radius: 4px;
+  border: solid 1px var(--dark-slate-blue);
 }
 
 .BelowSignIn {
-	display: flex;
-	flex-flow: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	width: 431px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* width: 431px; */
+  width: 100%;
 }
 
 .Toppings_Like {
-	width: 95px;
-	height: 18px;
-	margin: 0 0 0 11px;
-	opacity: 0.7;
-	font-family: 'DM Sans', sans-serif;
-	font-size: 14px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: var(--dark-slate-blue);
+  width: 95px;
+  height: 18px;
+  margin: 0 0 0 11px;
+  opacity: 0.7;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--dark-slate-blue);
 }
 
 .Dont_have_an_account {
-	width: 153px;
-	height: 18px;
-	margin: 0 4px 0 0;
-	font-family: 'DM Sans', sans-serif;
-	font-size: 14px;
-	font-weight: normal;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #000000;
+  width: 153px;
+  height: 18px;
+  margin: 0 4px 0 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
 }
 
 .Sign_Up {
-	width: 51px;
-	height: 18px;
-	margin: 0 0 0 4px;
-	font-family: 'DM Sans', sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-	font-stretch: normal;
-	font-style: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: var(--dark-slate-blue);
+  width: 51px;
+  height: 18px;
+  margin: 0 0 0 4px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--dark-slate-blue);
+}
+
+@media (max-width: 500px) {
+  .Container {
+    width: 100%;
+  }
+  .PEEKaMEET_lets_you_n {
+    width: 100%;
+  }
 }

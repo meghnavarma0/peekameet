@@ -1,27 +1,29 @@
 .Back {
-	width: 100%;
-	height: 100%;
-	background-image: linear-gradient(92deg, #14b349 -109%, #09a04f 209%);
-	/* background: pink; */
+  width: 100%;
+  /* height: 100%; */
+  background-image: linear-gradient(92deg, #14b349 -109%, #09a04f 209%);
+  /* background: pink; */
 }
 .Mask {
-	width: 1080px;
-	height: 588px;
+  width: 1080px;
+  height: 588px;
 
-	/* margin: 30px 143px; */
-	margin: auto;
-	padding: 30px 30px 90px;
-	border-radius: 10px;
-	background-color: #ffffff;
-	display: flex;
-	flex-flow: row;
-	justify-content: space-around;
+  /* margin: 30px 143px; */
+  margin: auto;
+  padding: 30px 30px 90px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
 }
 
 @media (max-width: 500px) {
-	.Mask {
-		flex-flow: column;
-		justify-content: center;
-		align-items: center;
-	}
+  .Mask {
+    width: 80%;
+    height: auto;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

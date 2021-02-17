@@ -1,0 +1,21 @@
+.Add_Notes {
+  background-color: #fff;
+  color: #1cb54f;
+  margin: 15px auto;
+  border: none;
+  font-weight: bold;
+  font-family: "DM sans", "sans-serif";
+  display: flex;
+  padding: 5px 10px;
+  flex-flow: row;
+  justify-content: space-around;
+  width: 130px;
+  outline: none;
+}
+.Add_Notes:active,
+.Add_Notes:hover {
+  cursor: pointer;
+}
+.Notes {
+  text-align: center;
+}
